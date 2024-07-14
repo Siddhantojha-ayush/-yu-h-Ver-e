@@ -1,0 +1,684 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@yu$h-Ver$e</title>
+    <link rel="stylesheet" href="Assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">
+                <h3>@yu$h-<span>Ver$e</span></h3>
+            </div>
+            <div class="search-bar">
+                <i class="fa fa-search"></i>
+                <input type="search" placeholder="Search For Creator">
+            </div>
+            <div class="add-post">
+                <label for="add-post" class="btn btn-primary mini-button" >Add Post</label>
+                <div class="profile-picture" id="my-profile-picture">
+                    <img src="images/IMG-20230724-WA0012.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <main>
+        <div class="container main-container">
+            <div class="main-left">
+                <a class="profile">
+                    <div class="profile-picture" id="my-profile-picture">
+                        <img src="images/IMG-20230724-WA0012.jpg" alt="">
+                    </div>
+                    <div class="profile-handle">
+                        <h4>Ayush</h4>
+                        <p class="textgray">
+                            @ayush_ojha47
+                        </p>
+                    </div>
+                </a>
+                <aside>
+                    <a class="menu-item active">
+                        <span><img src="svg/house-door.svg" alt=""></span>
+                        <h3>Home</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><img src="svg/joystick.svg" alt=""></span>
+                        <h3>Explore</h3>
+                    </a>
+                    <a class="menu-item" id="Notify-box">
+                        <span><img src="svg/bell.svg" alt=""></span>
+                        <small class="notify-counter" id="ntCounter1">9+</small>
+                        <h3>Notification</h3>
+                        <div class="notification-box">
+                            <div>
+                                <div class="profile-picture">
+                                    <img src="images/m1.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Fbxu_jdm45</b> accepted your friend request
+                                    <small class="text-gray">1 Days Ago</small>
+                                </div>
+                                <div>
+                                    <div class="profile-picture">
+                                        <img src="images/m1.jpg" alt="">
+                                    </div>
+                                    <div class="notification-body">
+                                        <b>Fbxu_jdm45</b> commented on your post
+                                        <small class="text-gray">15 minutes ago</small>
+                                    </div>
+                                    <div class="profile-picture">
+                                        <img src="images/m1.jpg" alt="">
+                                    </div>
+                                    <div class="notification-body">
+                                        <b>Fbxu_jdm45</b> liked your your post
+                                        <small class="text-gray">3 minutes Ago</small>
+                                    </div>
+                                    <div>
+                                        <div class="profile-picture">
+                                            <img src="images/m1.jpg" alt="">
+                                        </div>
+                                        <div class="notification-body">
+                                            <b>MarFbxu_jdm45</b> and <b>10 others</b> liked your post
+                                            <small class="text-gray">3 hours Ago</small>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="profile-picture">
+                                            <img src="images/IMG-20230724-WA0012.jpg" alt="">
+                                        </div>
+                                        <div class="notification-body">
+                                            <b>Siddhant Ojha</b> and <b>5 others</b> commented on your post
+                                            <small class="text-gray">just now</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="menu-item" id="messageMenu">
+                        <span><img src="svg/chat-left-dots.svg" alt=""></span>
+                        <small class="notify-counter" id="notfyCounter2">3</small>
+                        <h3>Message</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><img src="svg/bookmarks.svg" alt=""></span>
+                        <h3>Book Marks</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><img src="svg/graph-up-arrow.svg" alt=""></span>
+                        <h3>Analytics</h3>
+                    </a>
+                    <a class="menu-item" id="theme">
+                        <span><img src="svg/palette.svg" alt=""></span>
+                        <h3>Theme</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><img src="svg/gear.svg" alt=""></span>
+                        <h3>Settings</h3>
+                    </a>
+
+                    <label for="add-post" class="btn btn-primary btn-lg" id="Crate-lg">Create A Post</label>
+
+                </aside>
+            </div>
+            <div class="main-middle">
+                <div class="middle-container">
+                    <div class="stories">
+                        <div class="stories-wrapper swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="story swiper-slide">
+                                    <div class="profile-picture" id="my-profile-picture">
+                                        <img src="images/IMG-20230724-WA0012.jpg" alt="">
+                                    </div>
+                                    <label for="add-story" class="add-story">
+                                        <i class="fa fa-add" id="upload">
+                                            <!-- <input type="file"> -->
+                                        </i>
+                                        <p>Add Your Story</p>
+                                    </label>
+                                    <input type="file" accept="image/jpg,image/png,image/jpeg" id="add-story">
+                                </div>
+                                <div class="story swiper-slide">
+                                    <img src="images/L1.jpg" alt="">
+                                    <div class="profile-picture">
+                                        <img src="images/L2.jpg" alt="">
+                                    </div>
+                                    <p>Lawrence Bishnoi</p>
+                                </div>
+                                <div class="story swiper-slide">
+                                    <img src="images/Salman1.jpg" alt="">
+                                    <div class="profile-picture">
+                                        <img src="images/Salman2.jpg" alt="">
+                                    </div>
+                                    <p>Salman Khan</p>
+                                </div>
+                                <div class="story swiper-slide">
+                                    <img src="images/Putin1.jpg" alt="">
+                                    <div class="profile-picture">
+                                        <img src="images/Putin3.jpg" alt="">
+                                    </div>
+                                    <p>Vladimir Putin</p>
+                                </div>
+                                <div class="story swiper-slide">
+                                    <img src="images/Z1.jpg" alt="">
+                                    <div class="profile-picture">
+                                        <img src="images/Z3.jpg" alt="">
+                                    </div>
+                                    <p>Vlodimir Zelenski</p>
+                                </div>
+                                <div class="story swiper-slide">
+                                    <img src="images/Yogi1.jpg" alt="">
+                                    <div class="profile-picture">
+                                        <img src="images/Yogi2.jpg" alt="">
+                                    </div>
+                                    <p>Yogi AdityNath</p>
+                                </div>
+                                <div class="story swiper-slide">
+                                    <img src="images/O1.jpg" alt="">
+                                    <div class="profile-picture">
+                                        <img src="images/O3.jpg" alt="">
+                                    </div>
+                                    <p>Asaduddin Owaisi</p>
+                                </div>
+                                <div class="story swiper-slide">
+                                    <img src="images/Israle1.jpg" alt="">
+                                    <div class="profile-picture">
+                                        <img src="images/Israle3.jpg" alt="">
+                                    </div>
+                                    <p>Israle</p>
+                                </div>
+                                <div class="story swiper-slide">
+                                    <img src="images/P1.png" alt="">
+                                    <div class="profile-picture">
+                                        <img src="images/P3.jpg" alt="">
+                                    </div>
+                                    <p>Palestine</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <form class="add-post input-post">
+                        <div class="profile-picture">
+                            <img src="images/IMG-20230724-WA0012.jpg" alt="">
+                        </div>
+                        <input type="text" placeholder="What's on your mind?" id="add-post">
+                        <input type="submit" value="post" class="btn btn-primary">
+                    </form>
+
+                    <div class="feeds">
+                        <div class="feed myfeed">
+                            <div class="feed-top">
+                                <div class="user">
+                                    <div class="profile-picture" id="my-profile-picture">
+                                        <img src="images/IMG-20230724-WA0012.jpg" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h3>Ayush</h3>
+                                        <div class="time textgray">
+                                            <small>Kolkata, <span>2 DAYS AGO</span></small>
+                                        </div>
+                                    </div>
+                                    <div class="edit">
+                                        <img src="svg/three-dots.svg" alt="" class="margin">
+                                        <ul class="edit-menu">
+                                            <li><i class="fa fa-pen"></i>Edit</li>
+                                            <li><i class="fa fa-trash"></i>Delete</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feed-img">
+                                <img src="images/DSC07081.JPG" alt="">
+                            </div>
+                            <div class="action-button">
+                                <div class="interaction-button">
+                                    <span><i class="fa fa-heart"></i></span>
+                                    <span><i class="fa fa-comment"></i></span>
+                                    <span><i class="fa fa-link"></i></span>
+                                </div>
+                                <div class="bookmark">
+                                    <i class="fa fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="liked-by">
+                                <span><img src="images/Dhoni.jpg" alt=""></span>
+                                <span><img src="images/Virat.jpg" alt=""></span>
+                                <span><img src="images/Rohit.jpg" alt=""></span>
+                                <p><b>Sid</b> and <b>77 other commented</b></p>
+                            </div>
+                            <div class="caption">
+                                <p><b>Front-End</b> project (html,CSS,js)
+                                    <span class="hars-tag">#upgrade</span>
+                                </p>
+                            </div>
+                            <div class="comments text-gray">
+                                view all comments
+                            </div>
+                        </div>
+                        <div class="feed">
+                            <div class="feed-top">
+                                <div class="user">
+                                    <div class="profile-picture">
+                                        <img src="images/image.jpg" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h3>Ayush Ojha</h3>
+                                        <div class="time text-gray">
+                                            <small>Kolkata, <span>2 DAYS AGO</span></small>
+                                        </div>
+                                    </div>
+                                    <div class="edit">
+                                        <img src="svg/three-dots.svg" alt="" class="margin">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feed-img">
+                                <h2 class="txt">Hey I am Ayush <br> <br>
+                                    from India</h2>
+                            </div>
+                            <div class="action-button">
+                                <div class="interaction-button">
+                                    <span><i class="fa fa-heart"></i></span>
+                                    <span><i class="fa fa-comment"></i></span>
+                                    <span><i class="fa fa-link"></i></span>
+                                </div>
+                                <div class="bookmark">
+                                    <i class="fa fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="liked-by">
+                                <span><img src="images/Rohit.jpg" alt=""></span>
+                                <span><img src="images/Virat.jpg" alt=""></span>
+                                <span><img src="images/Dhoni.jpg" alt=""></span>
+                                <p><b>Fbxu_jdm45</b> and <b>77 other commented</b></p>
+                            </div>
+                            <div class="caption">
+                                <p><b>White</b> 
+                                    <span class="hars-tag">#life</span>
+                                </p>
+                            </div>
+                            <div class="comments text-gray">
+                                view all comments
+                            </div>
+                        </div>
+                        <div class="feed">
+                            <div class="feed-top">
+                                <div class="user">
+                                    <div class="profile-picture">
+                                        <img src="images/Sidhu2.jpg" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h3>Sidhu Moosewala</h3>
+                                        <div class="time text-gray">
+                                            <small>Punjab, <span>29-may-2022</span></small>
+                                        </div>
+                                    </div>
+                                    <div class="edit">
+                                        <img src="svg/three-dots.svg" alt="" class="margin">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feed-img">
+                                <img src="images/Sidhu1.webp" alt="">
+                            </div>
+                            <div class="action-button">
+                                <div class="interaction-button">
+                                    <span><i class="fa fa-heart"></i></span>
+                                    <span><i class="fa fa-comment"></i></span>
+                                    <span><i class="fa fa-link"></i></span>
+                                </div>
+                                <div class="bookmark">
+                                    <i class="fa fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="liked-by">
+                                <span><img src="images/Virat.jpg" alt=""></span>
+                                <span><img src="images/Rohit.jpg" alt=""></span>
+                                <span><img src="images/Dhoni.jpg" alt=""></span>
+                                <p><b>Goldy Brar</b> and <b>77 other commented</b></p>
+                            </div>
+                            <div class="caption">
+                                <p><b>Jr. Sidhu</b> wating
+                                    <span class="hars-tag">#latesinger</span>
+                                </p>
+                            </div>
+                            <div class="comments text-gray">
+                                view all comments
+                            </div>
+                        </div>
+                        <div class="feed">
+                            <div class="feed-top">
+                                <div class="user">
+                                    <div class="profile-picture">
+                                        <img src="images/Goldy.jpg" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h3>Goldy Brar</h3>
+                                        <div class="time text-gray">
+                                            <small>CANADA, <span>1 DAYS AGO</span></small>
+                                        </div>
+                                    </div>
+                                    <div class="edit">
+                                        <img src="svg/three-dots.svg" alt="" class="margin">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feed-img">
+                                <img src="images/Brar.jpg" alt="">
+                            </div>
+                            <div class="action-button">
+                                <div class="interaction-button">
+                                    <span><i class="fa fa-heart"></i></span>
+                                    <span><i class="fa fa-comment"></i></span>
+                                    <span><i class="fa fa-link"></i></span>
+                                </div>
+                                <div class="bookmark">
+                                    <i class="fa fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="liked-by">
+                                <span><img src="images/Rohit.jpg" alt=""></span>
+                                <span><img src="images/Dhoni.jpg" alt=""></span>
+                                <span><img src="images/Virat.jpg" alt=""></span>
+                                <p><b>Sidhu Mosewala</b> and <b>77 other commented</b></p>
+                            </div>
+                            <div class="caption">
+                                <p><b>Mosewala </b>jindabaad
+                                  <span class="hars-tag">#gangster</span>
+                                </p>
+                            </div>
+                            <div class="comments text-gray">
+                                view all comments
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="main-right">
+                <div class="messages">
+                    <div class="message-top">
+                        <h4>Message</h4> <i class="fa fa-edit"></i>
+                    </div>
+                    <div class="message-search-bar">
+                        <i class="fa fa-search"></i>
+                        <input type="search" placeholder="Search message" id="message-search">
+                    </div>
+                    <div class="message-categories">
+                        <h6 class="active">Primary</h6>
+                        <h6>General</h6>
+                        <h6 class="message-request">Request(2)</h6>
+                    </div>
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="images/m1.jpg" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>Fbxu_jdm45</h5>
+                            <p class="text-gray">
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="images/m1.jpg" alt="">
+                            <div class="green-active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Fbxu_jdm45</h5>
+                            <p class="text-gray">
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="images/m1.jpg" alt="">
+                            <div class="green-active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Fbxu_jdm45</h5>
+                            <p class="text-gray">
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="images/m1.jpg" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>Fbxu_jdm45</h5>
+                            <p class="text-gray">
+                                <div class="green-active"></div>
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="images/m1.jpg" alt="">
+                            <div class="-active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Fbxu_jdm45</h5>
+                            <p class="text-gray">
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="friend-request">
+                    <h4>Request</h4>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-picture">
+                                <img src="images/m1.jpg" alt="">
+                                
+                            </div>
+                            <div>
+                                <h5>Fbxu_jdm45</h5>
+                                <p class="text-gray">
+                                    4 mutual friends
+                                </p>
+                                <small class="text-gray alert">You have accepted friend request</small>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <div class="btn btn-primary" id="Accept">
+                                Accept
+                            </div>
+                            <div class="btn btn-danger" id="Delete">
+                                Delete
+                            </div>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-picture">
+                                <img src="images/m1.jpg" alt="">
+                                
+                            </div>
+                            <div>
+                                <h5>Fbxu_jdm45</h5>
+                                <p class="text-gray">
+                                    4 mutual friends
+                                </p>
+                                <small class="text-gray alert">You have accepted friend request</small>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <div class="btn btn-primary" id="Accept">
+                                Accept
+                            </div>
+                            <div class="btn btn-danger" id="Delete">
+                                Delete
+                            </div>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-picture">
+                                <img src="images/m1.jpg" alt="">
+                                
+                            </div>
+                            <div>
+                                <h5>Fbxu_jdm45</h5>
+                                <p class="text-gray">
+                                    4 mutual friends
+                                </p>
+                                <small class="text-gray alert">You have accepted friend request</small>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <div class="btn btn-primary" id="Accept">
+                                Accept
+                            </div>
+                            <div class="btn btn-danger" id="Delete">
+                                Delete
+                            </div>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-picture">
+                                <img src="images/m1.jpg" alt="">
+                                
+                            </div>
+                            <div>
+                                <h5>Fbxu_jdm45</h5>
+                                <p class="text-gray">
+                                    4 mutual friends
+                                </p>
+                                <small class="text-gray alert">You have accepted friend request</small>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <div class="btn btn-primary" id="Accept">
+                                Accept
+                            </div>
+                            <div class="btn btn-danger" id="Delete">
+                                Delete
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        
+
+
+    </main>
+
+    <div class="popup profile-popup">
+        <div>
+            <div class="popup-box profile-popup-box">
+                <h1>Ayush Ojha</h1>
+                <p>@ayush_ojha47</p>
+                <div id="my-profile-picture">
+                    <img src="images/IMG-20230724-WA0012.jpg" alt="">
+                </div>
+                <label for="profile-upload" class="btn btn-primary btn-lg">Update profile Picture</label>
+                <input type="file" accept="image/jpg image/png image/jpeg" id="profile-upload">
+                <button class="btn btn-primary btn-lg">Log Out</button>
+            </div>
+            <span><i class="fa fa-close close"></i></span>
+        </div>
+    </div>
+
+    <div class="popup add-post-popup">
+        <div>
+            <form class="popup-box add-post-pop">
+                <h1>Add New Post</h1>
+                <div class="row post-title">
+                    <label>Title</label>
+                    <input type="text" id="add-post" placeholder="What's on your mind">
+                </div>
+                <div class="row post-img">
+                    <img src="" alt="" id="postImg">
+                    <label for="feed-pic-upload" class="feed-upload-button"><span><i class="fa fa-add"></i></span>Upload
+                        A
+                        Picture</label>
+                    <input type="file" accept="image/jpg, image/png, image/jpeg" id="feed-pic-upload">
+                    <input type="submit" class="btn btn-primary btn-lg" value="Add Post">
+                </div>
+            </form>
+            <span><i class="fa fa-close close"></i></span>
+        </div>
+    </div>
+
+    <div class="popup theme-customize">
+        <div>
+            <div class="popup-box theme-customize-popup-box">
+                <h1>Customize your theme</h1>
+                <p>Manage your font size, color and background!</p>
+                <div class="font-size">
+                    <h4>Font Size</h4>
+                    <div>
+                        <div>
+                            <h6>Aa</h6>
+                        </div>
+                        <div class="choose-size">
+                            <span class="fontsize1"></span>
+                            <span class="fontsize2 active"></span>
+                            <span class="fontsize3"></span>
+                            <span class="fontsize4"></span>
+                            <span class="fontsize5"></span>
+                        </div>
+                        <div>
+                            <h3>Aa</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="colors">
+                    <h4>Colors</h4>
+                    <div class="choose-color">
+                        <span class="color-1 active"></span>
+                        <span class="color-2"></span>
+                        <span class="color-3"></span>
+                        <span class="color-4"></span>
+                        <span class="color-5"></span>
+                    </div>
+                </div>
+                <div class="background">
+                    <h4>Background</h4>
+                    <div class="choose-bg">
+                        <div class="bg1 active">
+                            <span></span>
+                        <h5>Light</h5>
+                        </div>
+                        <div class="bg2">
+                            <span></span>
+                        <h5>Dark</h5>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <span class="close">
+                <i class="fa fa-close"></i></span>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="Assets/script.js"></script>
+</body>
+
+</html>
